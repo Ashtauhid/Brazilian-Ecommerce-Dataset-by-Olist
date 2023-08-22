@@ -19,7 +19,7 @@ It's important to note that this dataset consists of actual commercial data, tho
 Before constructing a data model based on these tables, it's essential to distinguish between fact and dimension tables. Fact tables inherently lack an entirely unique field across the table, while dimension tables necessitate a unique field. This differentiation can be conveniently visualized through tools like Power BI.
 
 To achieve this, navigate to the model view and access the "Transform data" section. Within this section, proceed to the "View" option and select "Column distribution." This will display the distribution of entries within all fields of an individual table. Following the steps, we discovered the subsequent distributions:
-### olist_customers_dataset:
+### olist_customers_dataset: ![](Resources/olist_customers_dataset.png)
 ### olist_geolocation_dataset:
 ### olist_order_items_dataset:
 ### olist_order_payment_dataset:
