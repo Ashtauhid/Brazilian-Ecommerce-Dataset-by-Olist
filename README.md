@@ -61,3 +61,5 @@ Subsequently, the headers are successfully modified, enabling us to initiate the
 - Snowflake schema
 - Galaxy schema
 
+We have chosen the snowflake schema for this dataset due to the fact that all the tables cannot be connected to a single fact table. For instance, product_category_name_translation table has no direct connection with the fact table olist_orders_dataset. Instead, it can be connected to another dimension table olist_products_dataset based on the product_category_name field. As of now, we have the following tables ready for data modeling:
+![Unlinked tables](Resources/Unlinked%20schema.png)
