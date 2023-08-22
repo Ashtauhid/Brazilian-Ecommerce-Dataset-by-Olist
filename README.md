@@ -79,3 +79,5 @@ Here the asterisk (*) symbol means and so we have 7 one-to-many relationships an
 We employed the Power BI software to create visualizations for five key performance indicators (KPIs) of the E-commerce business. Additionally, we included other important measurable metrics that stakeholders require in order to make well-informed decisions.
 ![Dashboard](Visualization/Dashboard.png)
 [Click here to view in Power BI](https://app.powerbi.com/reportEmbed?reportId=40bfc821-b31a-4581-aac2-4ca8ebdf56c6&autoAuth=true&ctid=990436a6-87df-491c-9124-9afa91f88827)
+
+<iframe title="Brazilian E-commerce Dataset by Olist" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=40bfc821-b31a-4581-aac2-4ca8ebdf56c6&autoAuth=true&ctid=990436a6-87df-491c-9124-9afa91f88827" frameborder="0" allowFullScreen="true"></iframe>
