@@ -71,3 +71,4 @@ It's important to note that there are currently no established connections among
 
 Using the available options, we can come up with the following relationship within the tables:
 ![Linked tables](Resources/Linked%20schema.png)
+Here the asterisk (*) symbol means and so we have 7 one-to-many relationships and 1 many-to-many relationship. The direction of the line between two tables means how data is filtered in visualizations and queries. Note that the fact table only holds foreign keys, and the dimension tables contain the primary keys. Now, our data model is complete and ready to be queried or visualized using Power BI.
