@@ -38,6 +38,8 @@ To achieve this, navigate to the model view and access the "Transform data" sect
 ### olist_product_category_name_translation:
 ![Product category name translation](Resources/olist_product_category_name_translation.png)
 
+## Database modeling:
+
 Based on the observation we have determined the dimension tables and fact table as follows:
 | Dataset Name                                | Table Type                     |
 |---------------------------------------------|--------------------------------|
@@ -72,3 +74,7 @@ It's important to note that there are currently no established connections among
 Using the available options, we can come up with the following relationship within the tables:
 ![Linked tables](Resources/Linked%20schema.png)
 Here the asterisk (*) symbol means and so we have 7 one-to-many relationships and 1 many-to-many relationship. The direction of the line between two tables means how data is filtered in visualizations and queries. Note that the fact table only holds foreign keys, and the dimension tables contain the primary keys. Now, our data model is complete and ready to be queried or visualized using Power BI.
+
+## Data Visualization:
+We employed the Power BI software to create visualizations for five key performance indicators (KPIs) of the E-commerce business. Additionally, we included other important measurable metrics that stakeholders require in order to make well-informed decisions.
+![Dashboard](Visualization/Dashboard.png)
