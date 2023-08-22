@@ -39,15 +39,17 @@ To achieve this, navigate to the model view and access the "Transform data" sect
 ![Product category name translation](Resources/olist_product_category_name_translation.png)
 
 Based on the observation we have determined the dimension tables and fact table as follows:
-| Dataset Name                                | Table Type                      |
-|---------------------------------------------|---------------------------------|
+| Dataset Name                                | Table Type                     |
+|---------------------------------------------|--------------------------------|
 | olist_customers_dataset                     | Dimension Table                |
 | olist_geolocation_dataset                   | Dimension Table                |
-| olist_order_items_dataset                   | Fact Table                      |
+| olist_order_items_dataset                   | Fact Table                     |
 | olist_order_payment_dataset                 | Dimension Table                |
 | olist_order_reviews_dataset                 | Dimension Table                |
 | olist_orders_dataset                        | Dimension Table                |
 | olist_products_dataset                      | Dimension Table                |
 | olist_sellers_dataset                       | Dimension Table                |
-| olist_product_category_name_translation    | Dimension Table                |
+| olist_product_category_name_translation     | Dimension Table                |
 
+The table labeled "olist_product_category_name_translation" presents a unique challenge due to its absence of proper column headers, instead employing the names "Column1" and "Column2." Interestingly, upon closer inspection, it becomes evident that the first-row values in this table correspond to the intended column headers. We need to fix this issue before proceeding further. Overcoming this issue is remarkably straightforward within Power BI. By navigating to the "Home" tab of this table, a button aptly named "Use First Row as Header" becomes available. Upon clicking this button, a transformative change unfolds.
+![Corrected header](Resources/With header.png)
