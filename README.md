@@ -69,3 +69,4 @@ It's important to note that there are currently no established connections among
 2.	**Manage Relationships Option (Model View):** This approach involves accessing the Model View and utilizing the "Manage Relationships" feature to manually define and manage relationships between tables.
 3.	**Drag and Drop of Primary Keys:** An alternative manual method involves directly dragging and dropping primary key attributes from one table to another, thereby defining relationships.
 Using the available options, we can come up with the following relationship within the tables:
+![Linked tables](Resources/Linked%20schema.png)
