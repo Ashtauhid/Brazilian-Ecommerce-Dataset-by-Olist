@@ -55,3 +55,7 @@ The table labeled "olist_product_category_name_translation" presents a unique ch
 
 ![Corrected header](Resources/With%20header.png)
 
+Subsequently, the headers are successfully modified, enabling us to initiate the process of data modeling. From this point, meaningful insights can be derived by visualizing and analyzing the data with clarity and precision. With the datasets now being cleaned, corrected, and the dimension tables and fact tables being identified, we are ready to commence the data modeling phase. The available options for modeling:
+•	Star schema
+•	Snowflake schema
+•	Galaxy schema
