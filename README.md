@@ -37,3 +37,17 @@ To achieve this, navigate to the model view and access the "Transform data" sect
 ![Sellers dataset](Resources/olist_sellers_dataset.png)
 ### olist_product_category_name_translation:
 ![Product category name translation](Resources/olist_product_category_name_translation.png)
+
+Based on the observation we have determined the dimension tables and fact table as follows:
+| Dataset Name                                | Table Type                      |
+|---------------------------------------------|---------------------------------|
+| olist_customers_dataset                     | Dimension Table                |
+| olist_geolocation_dataset                   | Dimension Table                |
+| olist_order_items_dataset                   | Fact Table                      |
+| olist_order_payment_dataset                 | Dimension Table                |
+| olist_order_reviews_dataset                 | Dimension Table                |
+| olist_orders_dataset                        | Dimension Table                |
+| olist_products_dataset                      | Dimension Table                |
+| olist_sellers_dataset                       | Dimension Table                |
+| olist_product_category_name_translation    | Dimension Table                |
+
