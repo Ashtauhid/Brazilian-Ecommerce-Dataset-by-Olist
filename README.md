@@ -19,12 +19,21 @@ It's important to note that this dataset consists of actual commercial data, tho
 Before constructing a data model based on these tables, it's essential to distinguish between fact and dimension tables. Fact tables inherently lack an entirely unique field across the table, while dimension tables necessitate a unique field. This differentiation can be conveniently visualized through tools like Power BI.
 
 To achieve this, navigate to the model view and access the "Transform data" section. Within this section, proceed to the "View" option and select "Column distribution." This will display the distribution of entries within all fields of an individual table. Following the steps, we discovered the subsequent distributions:
-### olist_customers_dataset: ![Customer dataset](Resources/olist_customers_dataset.png)
-### olist_geolocation_dataset: ![Geolocation dataset](Resources/olist_geolocation_dataset.png)
-### olist_order_items_dataset: ![Ordered items dataset](Resources/olist_order_items_dataset.png)
-### olist_order_payment_dataset: ![Order payment dataset](Resources/olist_order_payment_dataset.png)
-### olist_order_reviews_dataset: ![Order review dataset](Resources/olist_order_reviews_dataset.png)
-### olist_orders_dataset: ![Orders dataset](Resources/olist_orders_dataset.png)
-### olist_products_dataset: ![Products dataset](Resources/olist_products_dataset.png)
-### olist_sellers_dataset: ![Sellers dataset](Resources/olist_sellers_dataset.png)
-### olist_product_category_name_translation: ![Product category name translation](Resources/olist_product_category_name_translation.png)
+### olist_customers_dataset:
+![Customer dataset](Resources/olist_customers_dataset.png)
+### olist_geolocation_dataset:
+![Geolocation dataset](Resources/olist_geolocation_dataset.png)
+### olist_order_items_dataset:
+![Ordered items dataset](Resources/olist_order_items_dataset.png)
+### olist_order_payment_dataset: 
+![Order payment dataset](Resources/olist_order_payment_dataset.png)
+### olist_order_reviews_dataset:
+![Order review dataset](Resources/olist_order_reviews_dataset.png)
+### olist_orders_dataset:
+![Orders dataset](Resources/olist_orders_dataset.png)
+### olist_products_dataset:
+![Products dataset](Resources/olist_products_dataset.png)
+### olist_sellers_dataset:
+![Sellers dataset](Resources/olist_sellers_dataset.png)
+### olist_product_category_name_translation:
+![Product category name translation](Resources/olist_product_category_name_translation.png)
