@@ -57,15 +57,15 @@ The table labeled "olist_product_category_name_translation" presents a unique ch
 
 Subsequently, the headers are successfully modified, enabling us to initiate the process of data modeling. From this point, meaningful insights can be derived by visualizing and analyzing the data with clarity and precision. With the datasets now being cleaned, corrected, and the dimension tables and fact tables being identified, we are ready to commence the data modeling phase. The available options for modeling:
 
-- Star schema
-- Snowflake schema
-- Galaxy schema
+- **Star schema**
+- **Snowflake schema**
+- **Galaxy schema**
 
 We have chosen the snowflake schema for this dataset due to the fact that all the tables cannot be connected to a single fact table. For instance, product_category_name_translation table has no direct connection with the fact table olist_orders_dataset. Instead, it can be connected to another dimension table olist_products_dataset based on the product_category_name field. As of now, we have the following tables ready for data modeling:
 ![Unlinked tables](Resources/Unlinked%20schema.png)
 
 It's important to note that there are currently no established connections among the tables within this dataset. To enable seamless querying across the entire dataset, it is imperative to establish relationships among the tables. This can be achieved through three distinct approaches:
-1.	Automatic Detection via Power BI: Utilizing the capabilities of Power BI, the software can autonomously detect and establish relationships between tables.
-2.	Manage Relationships Option (Model View): This approach involves accessing the Model View and utilizing the "Manage Relationships" feature to manually define and manage relationships between tables.
-3.	Drag and Drop of Primary Keys: An alternative manual method involves directly dragging and dropping primary key attributes from one table to another, thereby defining relationships.
+1.	**Automatic Detection via Power BI:** Utilizing the capabilities of Power BI, the software can autonomously detect and establish relationships between tables.
+2.	**Manage Relationships Option (Model View):** This approach involves accessing the Model View and utilizing the "Manage Relationships" feature to manually define and manage relationships between tables.
+3.	**Drag and Drop of Primary Keys:** An alternative manual method involves directly dragging and dropping primary key attributes from one table to another, thereby defining relationships.
 Using the available options, we can come up with the following relationship within the tables:
